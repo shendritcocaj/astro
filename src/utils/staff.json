@@ -1,0 +1,74 @@
+[
+  {
+    "image": "../astrostaff/staf1.jpg",
+    "name": "SUHEL AHMETI",
+    "role": "President & Founder",
+    "email": "sahmeti@astroclubkosova.org"
+  },
+  {
+    "image": "../astrostaff/staff2.jpg",
+    "name": "PRANVERA BEGOLLI",
+    "role": "Project Manager & Coordinator",
+    "email": "pbegolli@astroclubkosova.org"
+  },
+  {
+    "image": "../astrostaff/staff3.jpg",
+    "name": "MIHANE BEQIRI",
+    "role": "Communication/PR Manager",
+    "email": "mbeqiri@astroclubkosova.org"
+  },
+  {
+    "image": "../astrostaff/staff4.jpg",
+    "name": "ALEX TANASKOVIĆ",
+    "role": "Community Manager",
+    "email": "atanaskovic@astroclubkosova.org"
+  },
+  {
+    "image": "../astrostaff/staff5.jpg",
+    "name": "FJOLLA RAMA",
+    "role": "Social Media Manager",
+    "email": "frama@astroclubkosova.org"
+  },
+  {
+    "image": "../astrostaff/staff6.jpg",
+    "name": "ASENA KANTARCI",
+    "role": "Office Administrator",
+    "email": "akantraci@astroclubkosova.org"
+  },
+  {
+    "image": "../astrostaff/staff7.jpg",
+    "name": "BLERON ÇAKA",
+    "role": "Astrophotographer",
+    "email": "bcaka@astroclubkosova.org"
+  },
+  {
+    "image": "../astrostaff/staff8.jpg",
+    "name": "EDISON KRASNIQI",
+    "role": "Graphic Designer",
+    "email": "ekrasniqi@astroclubkosova.org"
+  },
+  {
+    "image": "../astrostaff/staff9.jpg",
+    "name": "DONIKA GASHI",
+    "role": "Finance Manager",
+    "email": "dzogu@astroclubkosova.org"
+  },
+  {
+    "image": "../astrostaff/staff10.jpg",
+    "name": "ALTIN GASHI",
+    "role": "Web Developer & IT",
+    "email": "agashi@astroclubkosova.org"
+  },
+  {
+    "image": "../astrostaff/staff11.jpg",
+    "name": "SHENDRIT COCAJ",
+    "role": "Web Developer & IT",
+    "email": "shendritcocaj@hotmail.com"
+  },
+  {
+    "image": "../astrostaff/staff12.jpg",
+    "name": "SUZANA MARIĆ",
+    "role": "Lecturer / Coach",
+    "email": "sgashi@astroclubkosova.org"
+  }
+]

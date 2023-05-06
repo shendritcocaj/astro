@@ -1,0 +1,51 @@
+.video-events {
+  background: linear-gradient(
+    360deg,
+    rgba(1, 3, 20, 0.987) 0%,
+    rgb(89, 45, 209) 300%
+  );
+}
+
+.video-wrappper {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  padding-bottom: 2rem;
+}
+
+.video1 {
+  width: 100%;
+  align-self: center;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.title {
+  padding: 7rem 0 4rem 0;
+  color: #cdcdcd;
+}
+
+.event-detail {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+  color: #cdcdcd;
+  text-align: center;
+}
+
+.video-event-name {
+  font-size: 2.2rem;
+  color: #cdcdcd;
+  padding-top: 0.6rem;
+  text-align: center;
+}
+
+@media (max-width: 59em) {
+  .video-wrappper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+}
