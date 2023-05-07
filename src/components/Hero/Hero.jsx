@@ -16,7 +16,7 @@ const Hero = () => {
       <Header />
       <div id="Home" className="main">
         <div className="overlay"></div>
-        <video src={video} autoPlay loop muted></video>
+        {/* <video src={video} autoPlay loop muted></video> */}
         <div className="hero-title">
           <motion.h1
             initial={{ y: "-5rem", opacity: 0 }}
