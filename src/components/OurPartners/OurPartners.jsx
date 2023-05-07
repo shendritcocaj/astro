@@ -7,6 +7,7 @@ const Staff = () => {
   return (
     <>
       <Header />
+
       <div id="partners" className="staff-members-board  partners-awards">
         <div className=" staff-wrapper">
           <div className="width top-info">
