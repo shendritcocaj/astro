@@ -50,9 +50,9 @@
 /**************************/
 
 @media (max-width: 59em) {
-  .staff-hero-hero-title h1 {
-    /* margin-top: 35rem; */
-    font-size: 4rem;
+  .staff-hero-hero-title-top {
+    padding-top: 20rem;
+    /* font-size: 2rem; */
     letter-spacing: 2px;
   }
 }
@@ -62,9 +62,8 @@
 /**************************/
 
 @media (max-width: 44em) {
-  .staff-hero-hero-title h1 {
-    /* margin-top: 25rem; */
-    /* font-size: 6rem; */
+  .staff-hero-hero-title-top {
+    /* padding-top: 15rem; */
   }
 }
 
@@ -73,11 +72,6 @@
 /**************************/
 
 @media (max-width: 34em) {
-  .staff-hero-hero-title h1 {
-    /* margin-top: 35rem; */
-    font-size: 4rem;
-  }
-
   .awards-title-hero {
     display: flex;
     flex-direction: column;

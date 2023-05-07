@@ -2,7 +2,7 @@
   z-index: 99;
   color: white;
   position: absolute;
-  background-color: rgb(13, 5, 28, 0.8);
+  background-color: rgba(13, 5, 28, 0.8);
   position: fixed;
   top: 2rem;
   left: 2rem;
