@@ -19,7 +19,7 @@
   /* height: 100%; */
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
 }
 
 .hero-title h1 {
@@ -69,6 +69,8 @@
   .hero-title h1 {
     /* margin-top: 35rem; */
     /* font-size: 7rem; */
+    padding-bottom: 3rem;
+    letter-spacing: 2px;
   }
 }
 
