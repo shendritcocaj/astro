@@ -4,11 +4,14 @@ import Sdata from "../../utils/staff.json";
 import Mdata from "../../utils/Members.json";
 import Bdata from "../../utils/Board.json";
 import Header from "../Header/Header";
+import StaffHero from "../StaffHero/StaffHero";
+import Footer from "../Footer/Footer";
 
 const Staff = () => {
   return (
     <>
       <Header />
+      <StaffHero />
       <div id="staff" className="staff-members-board">
         <div className=" staff-wrapper">
           <div className="width top-info">
@@ -75,6 +78,7 @@ const Staff = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

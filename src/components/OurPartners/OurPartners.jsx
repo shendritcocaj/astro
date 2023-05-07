@@ -2,12 +2,14 @@ import React from "react";
 import Adata from "../../utils/Awards.json";
 import Pdata from "../../utils/Partners.json";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import OurPartnersHero from "../OurPartnersHero/OurPartnersHero";
 
 const Staff = () => {
   return (
     <>
       <Header />
-
+      <OurPartnersHero />
       <div id="partners" className="staff-members-board  partners-awards">
         <div className=" staff-wrapper">
           <div className="width top-info">
@@ -32,7 +34,11 @@ const Staff = () => {
         <div className="members">
           <div className=" members-wrapper">
             <div className="width top-info">
-              <h3 className="title">AWARDS & RECOGNITIONS</h3>
+              <h3 className=" awards-title">
+                <span>AWARDS</span>
+                <span>&</span>
+                <span>RECOGNITIONS</span>
+              </h3>
               <p className="staff-subtitle">
                 Great things, have small beginnings. Representing Kosovo
                 world-wide.
@@ -50,6 +56,7 @@ const Staff = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

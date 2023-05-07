@@ -27,6 +27,16 @@
   text-align: center;
 }
 
+.awards-title {
+  display: flex;
+  justify-content: center;
+  color: #cdcdcd;
+  margin: 0 auto;
+  font-size: 3rem;
+  padding: 3rem;
+  gap: 2rem;
+}
+
 .staff-card-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

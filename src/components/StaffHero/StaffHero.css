@@ -1,0 +1,91 @@
+.staff-hero-main {
+  height: 60vh;
+  background-image: url("../../assets/nebula-4k.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.staff-hero-hero-title {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+}
+
+.staff-hero-hero-title-top {
+  color: whitesmoke;
+  /* padding-top: 12rem; */
+  padding-bottom: 6rem;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+
+.staff-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.285);
+}
+
+.awards-title-hero {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .staff-hero-hero-title h1 {
+    /* margin-top: 35rem; */
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .staff-hero-hero-title h1 {
+    /* margin-top: 25rem; */
+    /* font-size: 6rem; */
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .staff-hero-hero-title h1 {
+    /* margin-top: 35rem; */
+    font-size: 4rem;
+  }
+
+  .awards-title-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .staff-hero-hero-title-top {
+    /* padding-top: 15rem; */
+  }
+}
