@@ -15,7 +15,7 @@ const StaffHero = () => {
           transition={{ duration: 4, type: "spring" }}
           className="staff-hero-hero-title-top"
         >
-          PARTNERS - AWARDS
+          Partners - Awards
         </motion.h1>
       </div>
     </div>
