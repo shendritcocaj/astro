@@ -14,10 +14,8 @@
 nav {
   display: flex;
   justify-content: space-between;
-
   align-items: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   color: #fff;
   width: 100%;
   margin: 0 auto;
@@ -28,6 +26,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  padding-right: 2rem;
 }
 
 .links {
@@ -41,7 +40,7 @@ nav {
 }
 
 .links:hover {
-  background-color: #42027a;
+  background-color: #320088;
   transition: 0.3s;
   scale: 1.1;
 }
@@ -53,6 +52,7 @@ nav {
 .logo {
   width: 100px;
   height: 50px;
+  padding-left: 2rem;
 }
 
 #bar {

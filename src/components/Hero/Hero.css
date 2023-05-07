@@ -22,8 +22,8 @@
 
 .hero-title h1 {
   color: whitesmoke;
-  margin-top: 20rem;
-  margin-bottom: 6rem;
+  padding-top: 20rem;
+  padding-bottom: 6rem;
   font-size: 7rem;
   text-align: center;
   letter-spacing: 5px;
