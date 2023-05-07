@@ -9,7 +9,7 @@ const SpecialEvents = () => {
   return (
     <section id="SpecialEvents" className="e-wrapper">
       <div className="width e-container">
-        <div className="title">Events</div>
+        <div className=" events-title">Events</div>
 
         <Swiper {...sliderSetings}>
           <SliderButtons />

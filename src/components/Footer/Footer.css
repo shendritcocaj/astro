@@ -12,7 +12,7 @@
 
 .bg-color {
   background-image: url(../../assets/nebula-4k.jpg);
-  /* background-position: center; */
+  background-position: top;
 }
 
 .name-footer {

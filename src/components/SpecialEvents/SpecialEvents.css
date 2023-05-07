@@ -9,10 +9,15 @@
   );
 }
 
-.title {
-  padding: 7rem 0 4rem 0;
+.events-title {
+  display: flex;
+  justify-content: center;
   color: #cdcdcd;
+  margin: 0 auto;
+  font-size: 3rem;
+  padding: 7rem;
 }
+
 .e-container {
   margin-bottom: 2rem;
 }
