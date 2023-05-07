@@ -22,6 +22,7 @@ const Hero = () => {
             initial={{ y: "-5rem", opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 4, type: "spring" }}
+            className="hero-title-top"
           >
             Astronomy Club
             <br />
