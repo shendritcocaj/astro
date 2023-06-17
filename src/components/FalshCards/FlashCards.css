@@ -6,6 +6,8 @@
   );
   padding: 10rem 10rem 20rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .flashcards-section p {
@@ -42,6 +44,25 @@ div.selected {
   border: 1px solid #407df0;
   color: #fff;
   font-weight: bold;
+}
+
+.button-63 {
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #0076eb);
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 1.2rem 2.4rem;
+  text-decoration: none;
+  cursor: pointer;
+  width: fit-content;
+  align-self: center;
+  margin-top: 2rem;
+}
+
+.button-63:hover {
+  box-shadow: 0 0 10px rgba(4, 203, 243, 0.648);
+  transition: 0.2s;
 }
 
 @media (max-width: 45em) {

@@ -42,17 +42,18 @@ class Header extends Component {
             className={this.state.clicked ? "nav-menu active" : "nav-menu "}
           >
             <Link className="links" to="/">
-              <i class="fa-solid fa-house"></i> Home
+              <i className="fa-solid fa-house"></i> Home
             </Link>
 
             <Link className="links" to="/staff">
-              <i class="fa-solid fa-person"></i> Staff
+              <i className="fa-solid fa-person"></i> Staff
             </Link>
             <Link className="links" to="/partners">
-              <i class="fa-regular fa-handshake"></i>Partners
+              <i className="fa-regular fa-handshake"></i>Partners
             </Link>
             <Link className="links" to="/donate">
-              <i class="fa-sharp fa-solid fa-circle-dollar-to-slot"></i>Donate
+              <i className="fa-sharp fa-solid fa-circle-dollar-to-slot"></i>
+              Donate
             </Link>
           </motion.div>
         </nav>

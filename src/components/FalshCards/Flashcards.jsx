@@ -1,5 +1,6 @@
 import "./FlashCards.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const questions = [
   {
@@ -55,6 +56,10 @@ export default function FlashCards() {
           </div>
         ))}
       </div>
+
+      <button className="button-63">
+        <Link to="/quiz">Take a quiz🚀 </Link>
+      </button>
     </div>
   );
 }
