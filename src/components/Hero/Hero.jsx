@@ -9,6 +9,8 @@ import ContactUs from "../LocationContact/ContactUs";
 import BestPartners from "../PartnersTop/BestPartners";
 import SpecialEvents from "../SpecialEvents/SpecialEvents";
 import VideoEvents from "../VideoEvents/VideoEvents";
+import Questions from "../Questions/Questions";
+import FlashCards from "../FalshCards/Flashcards";
 
 const Hero = () => {
   return (
@@ -40,7 +42,9 @@ const Hero = () => {
       </div>
       <BestPartners />
       <AboutUs />
+      <Questions />
       <SpecialEvents />
+      <FlashCards />
       <VideoEvents />
       <ContactUs />
       <Footer />
