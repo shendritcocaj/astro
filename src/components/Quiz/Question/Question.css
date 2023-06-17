@@ -27,8 +27,8 @@
 }
 
 .answer:hover {
-  background-color: #8fa9c5;
-  color: #0c0c0c;
+  scale: 1.1;
+  transition: 0.2s;
 }
 
 .score {
@@ -37,6 +37,8 @@
   bottom: 1rem;
   left: 1rem;
   font-size: 1.4rem;
+  color: #1afdee;
+  font-weight: 500;
 }
 
 .question_number {
@@ -45,6 +47,8 @@
   bottom: 1rem;
   right: 1rem;
   font-size: 1.4rem;
+  color: #1afdee;
+  font-weight: 500;
 }
 
 .question_result {
