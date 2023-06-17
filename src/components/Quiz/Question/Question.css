@@ -57,3 +57,36 @@
   display: flex;
   justify-content: space-around;
 }
+
+@media (min-width: 34em) and (max-width: 45em) {
+  .question {
+    margin: 5rem 0;
+    color: #fff;
+    font-size: 2rem;
+  }
+  .answer {
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.6rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .answer {
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+
+  .question {
+    margin: 6rem 0;
+    color: #fff;
+    font-size: 1.8rem;
+  }
+}

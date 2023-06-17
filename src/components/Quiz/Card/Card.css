@@ -3,13 +3,34 @@
   width: 80vw;
   /* background-image: url(../../../assets/nebula-4k.jpg); */
   border-radius: 1rem;
-  position: relative;
   border: none;
   display: flex;
   flex-direction: column;
-  margin: 0rem auto;
+  margin: 0 auto;
   position: absolute;
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (min-width: 34em) and (max-width: 45em) {
+  .card {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .card {
+    /* margin-top: 35rem; */
+    font-size: 2rem;
+  }
 }
