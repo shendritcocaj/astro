@@ -1,210 +1,210 @@
 export const questions = [
   {
-    questionText: "1. Cili është kryeqyteti i Portugalisë?",
-    answers: [
-      {
-        answerText: "Lisbona",
-        correctAnswer: true,
-      },
-      {
-        answerText: "Viena",
-        correctAnswer: false,
-      },
-      {
-        answerText: "Berlini",
-        correctAnswer: false,
-      },
-      {
-        answerText: "Berni",
-        correctAnswer: false,
-      },
-    ],
-  },
-  {
-    questionText: "2. Cili prej ketyre shteteve eshte edhe kontinent?",
-    answers: [
-      {
-        answerText: "Franca",
-        correctAnswer: false,
-      },
-      {
-        answerText: "Portugalia",
-        correctAnswer: false,
-      },
-      {
-        answerText: "Gjermania",
-        correctAnswer: false,
-      },
-      {
-        answerText: "Australia",
-        correctAnswer: true,
-      },
-    ],
-  },
-  {
-    questionText: "3. Kush ishte diktatori i Kubas?",
-    answers: [
-      {
-        answerText: "Ramon Grau",
-        correctAnswer: false,
-      },
-      {
-        answerText: "Fidel Castro",
-        correctAnswer: true,
-      },
-      {
-        answerText: "Jose Marti",
-        correctAnswer: false,
-      },
-      {
-        answerText: "Raul Castro",
-        correctAnswer: false,
-      },
-    ],
-  },
-  {
-    questionText: "4. Sa vite zgjatë mandati i kryeministrit në Kosove?",
-    answers: [
-      {
-        answerText: "5 Vite",
-        correctAnswer: false,
-      },
-      {
-        answerText: "2 Vite",
-        correctAnswer: false,
-      },
-      {
-        answerText: "4 Vite",
-        correctAnswer: true,
-      },
-      {
-        answerText: "6 Vite",
-        correctAnswer: false,
-      },
-    ],
-  },
-  {
-    questionText: "5. Sa planete jene ne sistemin Diellore?",
+    questionText: "1. How many planets are there in the Solar System?",
     answers: [
       {
         answerText: "9",
         correctAnswer: true,
       },
       {
-        answerText: "10",
+        answerText: "2",
         correctAnswer: false,
       },
       {
-        answerText: "15",
+        answerText: "12",
         correctAnswer: false,
       },
       {
-        answerText: "1",
-        correctAnswer: false,
-      },
-    ],
-  },
-  {
-    questionText: "6. Cilin numër paraqet numri romak “D”??",
-    answers: [
-      {
-        answerText: "10",
-        correctAnswer: false,
-      },
-      {
-        answerText: "1000",
-        correctAnswer: false,
-      },
-      {
-        answerText: "	500",
-        correctAnswer: true,
-      },
-      {
-        answerText: "200",
+        answerText: "13",
         correctAnswer: false,
       },
     ],
   },
   {
-    questionText: "7. Në cilin shtet mund të gjenden Piramidat e Gizës??",
+    questionText: "2. What is the largest planet in the Solar System?",
     answers: [
       {
-        answerText: "Egjipt",
+        answerText: "Saturn",
+        correctAnswer: false,
+      },
+      {
+        answerText: "Earth",
+        correctAnswer: false,
+      },
+      {
+        answerText: "Pluto",
+        correctAnswer: false,
+      },
+      {
+        answerText: "Jupiter",
+        correctAnswer: true,
+      },
+    ],
+  },
+  {
+    questionText: "3. What is the smallest planet in the Solar System?",
+    answers: [
+      {
+        answerText: "Jupiter",
+        correctAnswer: false,
+      },
+      {
+        answerText: "Pluto",
         correctAnswer: true,
       },
       {
-        answerText: "Siri",
+        answerText: "Earth",
         correctAnswer: false,
       },
       {
-        answerText: "Gjermani",
-        correctAnswer: false,
-      },
-      {
-        answerText: "Kili",
+        answerText: "Saturn",
         correctAnswer: false,
       },
     ],
   },
   {
-    questionText: "8. Ne cilin vit eshte rrenuar muri i Berlinit?",
+    questionText: "4. How old is the Solar System?",
     answers: [
       {
-        answerText: "1980",
+        answerText: "4.6 billion years old",
         correctAnswer: false,
       },
       {
-        answerText: "1989",
+        answerText: "3.6 billion years old",
+        correctAnswer: false,
+      },
+      {
+        answerText: "5 billion years old",
         correctAnswer: true,
       },
       {
-        answerText: "1992",
-        correctAnswer: false,
-      },
-      {
-        answerText: "1990",
+        answerText: "6 billion years old",
         correctAnswer: false,
       },
     ],
   },
   {
-    questionText: "9. Në cilin vit përfundoi Lufta e dyte Botërore?",
+    questionText: "5. How many stars are there in the universe?",
     answers: [
       {
-        answerText: "1945",
+        answerText: "300 sextillion",
         correctAnswer: true,
       },
       {
-        answerText: "1922",
+        answerText: "350 sextillion",
         correctAnswer: false,
       },
       {
-        answerText: "1999",
+        answerText: "200 sextillion",
         correctAnswer: false,
       },
       {
-        answerText: "1912",
+        answerText: "250 sextillion",
         correctAnswer: false,
       },
     ],
   },
   {
-    questionText: "10. Cili është mali më i lartë në botë?",
+    questionText: "6. How old is the Solar System?",
     answers: [
       {
-        answerText: "Denali",
+        answerText: "4.6 billion years old",
         correctAnswer: false,
       },
       {
-        answerText: "Malit Everest",
+        answerText: "3.6 billion years old",
+        correctAnswer: false,
+      },
+      {
+        answerText: "5 billion years old",
         correctAnswer: true,
       },
       {
-        answerText: "Kilimanjaro",
+        answerText: "6 billion years old",
+        correctAnswer: false,
+      },
+    ],
+  },
+  {
+    questionText: "7. How many stars are there in the universe?",
+    answers: [
+      {
+        answerText: "300 sextillion",
+        correctAnswer: true,
+      },
+      {
+        answerText: "350 sextillion",
         correctAnswer: false,
       },
       {
-        answerText: "Aconcagua",
+        answerText: "200 sextillion",
+        correctAnswer: false,
+      },
+      {
+        answerText: "250 sextillion",
+        correctAnswer: false,
+      },
+    ],
+  },
+  {
+    questionText: "8. What is the smallest planet in the Solar System?",
+    answers: [
+      {
+        answerText: "Jupiter",
+        correctAnswer: false,
+      },
+      {
+        answerText: "Pluto",
+        correctAnswer: true,
+      },
+      {
+        answerText: "Earth",
+        correctAnswer: false,
+      },
+      {
+        answerText: "Saturn",
+        correctAnswer: false,
+      },
+    ],
+  },
+  {
+    questionText: "9. How many planets are there in the Solar System?",
+    answers: [
+      {
+        answerText: "9",
+        correctAnswer: true,
+      },
+      {
+        answerText: "2",
+        correctAnswer: false,
+      },
+      {
+        answerText: "12",
+        correctAnswer: false,
+      },
+      {
+        answerText: "13",
+        correctAnswer: false,
+      },
+    ],
+  },
+  {
+    questionText: "10. How many stars are there in the universe?",
+    answers: [
+      {
+        answerText: "300 sextillion",
+        correctAnswer: true,
+      },
+      {
+        answerText: "350 sextillion",
+        correctAnswer: false,
+      },
+      {
+        answerText: "200 sextillion",
+        correctAnswer: false,
+      },
+      {
+        answerText: "250 sextillion",
         correctAnswer: false,
       },
     ],
