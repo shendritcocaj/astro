@@ -1,8 +1,7 @@
 .card {
-  height: 70vh;
-  width: 50vw;
-  background-image: url(../../../assets/nebula-4k.jpg);
-  padding: 2rem;
+  height: 80vh;
+  width: 80vw;
+  /* background-image: url(../../../assets/nebula-4k.jpg); */
   border-radius: 1rem;
   position: relative;
   border: none;
