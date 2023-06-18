@@ -66,19 +66,19 @@ export const questions = [
     questionText: "4. How old is the Solar System?",
     answers: [
       {
-        answerText: "4.6 billion years old",
+        answerText: "4.6 billion years",
         correctAnswer: false,
       },
       {
-        answerText: "3.6 billion years old",
+        answerText: "3.6 billion years",
         correctAnswer: false,
       },
       {
-        answerText: "5 billion years old",
+        answerText: "5 billion years",
         correctAnswer: true,
       },
       {
-        answerText: "6 billion years old",
+        answerText: "6 billion years",
         correctAnswer: false,
       },
     ],
