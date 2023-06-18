@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Hero.css";
-import video from "../../assets/nebula-25047.mp4";
 import Header from "../Header/Header";
 import AboutUs from "../AboutUs/AboutUs";
 import Footer from "../Footer/Footer";
@@ -11,6 +10,7 @@ import SpecialEvents from "../SpecialEvents/SpecialEvents";
 import VideoEvents from "../VideoEvents/VideoEvents";
 import Questions from "../Questions/Questions";
 import FlashCards from "../FalshCards/Flashcards";
+import CountUp from "react-countup";
 
 const Hero = () => {
   return (
@@ -18,7 +18,7 @@ const Hero = () => {
       <Header />
       <div id="Home" className="main">
         <div className="overlay"></div>
-        {/* <video src={video} autoPlay loop muted></video> */}
+
         <div className="hero-title">
           <motion.h1
             initial={{ y: "-5rem", opacity: 0 }}
@@ -38,6 +38,45 @@ const Hero = () => {
           >
             “Boundaries vanish when we look skyward”
           </motion.p>
+          <div className="stats">
+            {" "}
+            <motion.div
+              initial={{ y: "5rem", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 4, type: "spring" }}
+              className="stat"
+            >
+              <span>
+                <CountUp start={20} end={200} duration={4} />
+                <span className="plus"> +</span>
+              </span>
+              <span className="hero-partners">Members</span>
+            </motion.div>
+            <motion.div
+              initial={{ y: "5rem", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 4, type: "spring" }}
+              className="stat"
+            >
+              <span>
+                <CountUp start={10} end={50} duration={4} />
+                <span className="plus"> +</span>
+              </span>
+              <span className="hero-partners">Awards</span>
+            </motion.div>
+            <motion.div
+              initial={{ y: "5rem", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 4, type: "spring" }}
+              className="stat"
+            >
+              <span>
+                <CountUp start={30} end={150} duration={4} />
+                <span className="plus"> +</span>
+              </span>
+              <span className="hero-partners">Partners</span>
+            </motion.div>
+          </div>
         </div>
       </div>
       <BestPartners />

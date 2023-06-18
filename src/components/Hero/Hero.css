@@ -31,6 +31,36 @@
   font-weight: 600;
 }
 
+.stats {
+  /* position: absolute; */
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  gap: 5rem;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #d4d3d3;
+}
+
+.plus {
+  color: rgb(28, 153, 255);
+}
+
+.hero-partners {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(184, 184, 184);
+}
+
 .subtitle {
   color: whitesmoke;
   font-size: 2rem;

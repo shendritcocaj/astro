@@ -79,6 +79,10 @@
   border-radius: 1.5rem;
   border: none;
   font-size: 2rem;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.374);
   color: rgb(224, 224, 224);
+}
+
+.e-buttons button:hover {
+  background-color: rgba(17, 51, 85, 0.374);
 }

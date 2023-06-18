@@ -22,7 +22,7 @@
 .flashcards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 2.5rem;
 }
 
 .flashcards div {
@@ -38,6 +38,13 @@
   text-align: center;
   cursor: pointer;
   padding: 0 1rem;
+}
+
+.flashcards div:hover {
+  scale: 1.1;
+  transition: 0.5s;
+
+  box-shadow: 0 0 10px rgba(4, 203, 243, 0.648);
 }
 
 div.selected {
